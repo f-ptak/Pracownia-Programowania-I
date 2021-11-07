@@ -1,5 +1,5 @@
 def f5(n):
-    i=0
+    i=1
     result = ''
     while i<=n:
         result += str(i)
