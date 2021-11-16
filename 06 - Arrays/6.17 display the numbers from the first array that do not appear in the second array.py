@@ -7,7 +7,6 @@ while i < len(delboard):
     j = 0
     while j < len(checkboard):
         if delboard[i] == checkboard[j]:
-            print(delboard[i], end=" ")
             del delboard[i]
             i-=1
         j+=1
