@@ -14,9 +14,7 @@ def NATtoBIN(IN, OP):
         OP += str(DIG)
         return NATtoBIN(IN//2, OP)
 
-# NAT = int(input("wprowadz liczbe NATowita: "))
-NAT = 41
-#      101001
+NAT = int(input("wprowadz liczbe calkowita: "))
 BIN = []
 
 result = NATtoBIN(NAT, BIN)
