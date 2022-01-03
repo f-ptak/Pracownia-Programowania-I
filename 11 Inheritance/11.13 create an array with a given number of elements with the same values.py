@@ -21,7 +21,6 @@ class Arrays():
             if valfrom <= array[i] <= valto:
                 counter += 1
         return counter
-    
 
 print(Arrays.samevalues(10,4))
 randson = Arrays.randomvalues(20,-7,8)
