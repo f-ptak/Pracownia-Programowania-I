@@ -1,7 +1,7 @@
 class Figures():
     @staticmethod
     def circle(rad):
-        from math import pi as pi
+        from math import pi
         return pi*(rad**2)
     
     @staticmethod
