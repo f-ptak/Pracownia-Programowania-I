@@ -7,3 +7,5 @@ class C():
         namelist = list(self.name)
         surlist = list(self.surname)
         return (namelist[0] + surlist[0]).upper()
+
+print(C("anna","may"))
