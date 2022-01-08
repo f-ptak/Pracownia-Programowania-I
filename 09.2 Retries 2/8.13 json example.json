@@ -1,0 +1,15 @@
+{
+    "name": "Guy",
+    "surname": "Dude",
+    "age": 24,
+    "hobby": [
+        "lazin' around",
+        "smokin' stuff"
+    ],
+    "married": true,
+    "phone": {
+        "landline": "123456789",
+        "mobile": "987654321"
+    },
+    "cash": null
+}
