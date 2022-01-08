@@ -5,7 +5,9 @@ def push(value):
 
 def pop():
     if not empty():
-        queue.remove(queue[0])
+        return queue.remove(queue[0])
+    else:
+        return None
 
 def empty():
     return queue == []

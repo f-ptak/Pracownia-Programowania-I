@@ -5,7 +5,9 @@ def push(value):
 
 def pop():
     if not empty():
-        stack.pop()
+        return stack.pop()
+    else:
+        return None
 
 def empty():
     return stack == []
