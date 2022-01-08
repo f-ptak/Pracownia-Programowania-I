@@ -5,8 +5,8 @@ txt = "Tuesday: 22C, Wednesday: 21C, Thursday: 26C "
 pattern = "\d{2}"
 temperatures = re.findall(pattern, txt)
 
-average = 0
+sumson = 0
 for temp in temperatures:
-    average += int(temp)/3
+    sumson += int(temp)
 
-print(average)
+print(sumson/len(temperatures))
