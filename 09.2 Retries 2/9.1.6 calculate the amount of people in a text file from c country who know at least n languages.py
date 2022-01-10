@@ -3,7 +3,7 @@ def f6(c,n):
     
     counter = 0
     
-    with open("students.json") as file:
+    with open("9.1.6 students.json") as file:
         content = json.load(file)
     
     for person in content["students"]:

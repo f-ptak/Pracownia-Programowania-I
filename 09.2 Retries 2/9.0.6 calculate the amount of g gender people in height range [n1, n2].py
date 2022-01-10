@@ -3,7 +3,7 @@ def f6(g, n1, n2):
     
     counter = 0
     
-    with open("people.csv") as file:
+    with open("9.0.6 people.csv") as file:
         reader = csv.DictReader(file)
         
         for person in reader:
