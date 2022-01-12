@@ -9,7 +9,7 @@ class Student():
         Student.studentID += 1
     
     def __str__(self):
-        return (self.name).capitalize() + " " + (self.surname).upper() + " (" + (str(self.studentID)) + "), " + self.studyfield + " " + Student.university
+        return (self.name).capitalize() + " " + (self.surname).upper() + " (" + (str(self.studentID)) + "), " + self.studyfield + ", " + Student.university
 
 student1 = Student("Ludwig", "van Beethoven","Filozofia")
 print(student1)
