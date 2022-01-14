@@ -14,3 +14,7 @@ class C():
                 return -1
             
         return len(checkson)+1
+
+
+print(C([22,33,44,55,66]).m())
+print(C([22,33,55,66]).m())
